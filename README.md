@@ -1,6 +1,10 @@
 # Getting started with Vim
 
-Repo to document my journey to use Vim.
+Repo to document my journey to use Vim. 
+It’s meant to be a personal documentation of the most important steps to get Vim (on Mac) working.
+
+## Notes
+On Mac there is a version of Vim installed already. However, it may not me the most current and some things don’t work (e.g. System Clipboard). To get the most current homebrew version of Vim use `brew install vim` resp. `brew upgrade vim`.
 
 ## Customizing Vim
 
@@ -12,7 +16,16 @@ Basic customizations may be:
 
 ```
 set number                " show line numbers
+set clipboard=unnamed     " use system clipboard
+
 ```
 
+## Commands (Normal Mode)
+List of commands that I ~~used~~ had to look up first.
+
+* **Save**: `:w`
+* **Quit**: `:q` (Classic! 👌😩)
+* **Delete Line**: `dd`
+* **Add new line below**: `o`
 
 
