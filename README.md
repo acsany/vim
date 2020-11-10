@@ -6,6 +6,8 @@ It’s meant to be a personal documentation of the most important steps to get V
 ## Notes
 On Mac there is a version of Vim installed already. However, it may not me the most current and some things don’t work (e.g. System Clipboard). To get the most current homebrew version of Vim use `brew install vim` resp. `brew upgrade vim`.
 
+If preferred, you can map the Capslock key to ESC: https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_macOS
+
 ## Customizing Vim
 
 > 📄 My .vimrc file can be found here: https://github.com/acsany/dotfiles
@@ -26,6 +28,10 @@ List of commands that I ~~used~~ had to look up first.
 * **Save**: `:w`
 * **Quit**: `:q` (Classic! 👌😩)
 * **Delete Line**: `dd`
+* **Delete Character**: `x`
 * **Add new line below**: `o`
+* **Add new line above**: `O`
+* **Go to beginning of next word**: `w`
+* **Go to beginning of current/previous word**: `b`
 
 
