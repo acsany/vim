@@ -26,12 +26,20 @@ set clipboard=unnamed     " use system clipboard
 List of commands that I ~~used~~ had to look up first.
 
 * **Save**: `:w`
-* **Quit**: `:q` (Classic! 👌😩)
+* **Quit**: `:q` (Classic! 👌😩 )
 * **Delete Line**: `dd`
+* **Delete Word**: `dw`
+* **Delete until end of line**: `d$`
 * **Delete Character**: `x`
 * **Add new line below**: `o`
 * **Add new line above**: `O`
+* **Go to line number [n]**: E.g. `48gg`
+* **Go to begining of line**: `0`
+* **Go to end of line**: `$`
 * **Go to beginning of next word**: `w`
 * **Go to beginning of current/previous word**: `b`
+
+You can combine counters with commands e.g. `2w` to jump *two* words forward.
+
 
 
