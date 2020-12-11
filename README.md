@@ -22,6 +22,9 @@ set clipboard=unnamed     " use system clipboard
 
 ```
 
+Type `:syntax on` to enable syntax highlighting.
+
+
 ## Commands (Normal Mode)
 List of commands that I ~~used~~ had to look up first.
 
