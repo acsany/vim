@@ -20,6 +20,7 @@ Basic customizations may be:
 set number                " show line numbers
 set clipboard=unnamed     " use system clipboard
 
+syntax on                 " Syntax highlighting
 ```
 
 Type `:syntax on` to enable syntax highlighting.
