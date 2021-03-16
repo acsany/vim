@@ -29,21 +29,27 @@ Type `:syntax on` to enable syntax highlighting.
 ## Commands (Normal Mode)
 List of commands that I ~~used~~ had to look up first.
 
+> You can combine counters with commands e.g. `2w` to jump *two* words forward.
+
+### File commands
 * **Save**: `:w`
-* **Quit**: `:q` (Classic! 👌😩 )
+* **Quit**: `:q`
+
+### Adding/Deleting
 * **Delete Line**: `dd`
 * **Delete Word**: `dw`
 * **Delete until end of line**: `d$`
 * **Delete Character**: `x`
 * **Add new line below**: `o`
 * **Add new line above**: `O`
+
+### Undoing
+* **Undo previous action:** `u`
+* **Undo all the changes on a line:**  `U`
+
+### Navigation
 * **Go to line number [n]**: E.g. `48gg`
 * **Go to begining of line**: `0`
 * **Go to end of line**: `$`
 * **Go to beginning of next word**: `w`
 * **Go to beginning of current/previous word**: `b`
-
-You can combine counters with commands e.g. `2w` to jump *two* words forward.
-
-
-
